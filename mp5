@@ -1,0 +1,14 @@
+from matplotlib import pyplot as plt
+x=[1,2,3,4,5,6]
+y=[1,2,3,4,5,6]
+x1=[2,4,6,8,10]
+y1=[4,16,36,64,100]
+plt.plot(x1,y1)
+plt.plot(x,y , label='line1')
+plt.plot(x1,y1 , label='line 2')
+plt.plot(x,y)
+plt.title('my graph')
+plt.xlabel('x axis', fontsize=16)
+plt.ylabel('y axis', fontsize=16)
+plt.legend() # for label 
+plt.show()
