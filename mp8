@@ -1,0 +1,6 @@
+from matplotlib import pyplot as plt
+activities=['eat','sleep','repeat','slep']
+slices=[3,7,8,6]
+colors=['r','y','g','b']
+plt.pie(slices, labels=activities, colors=colors)
+plt.show()
