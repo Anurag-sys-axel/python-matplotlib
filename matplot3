@@ -1,0 +1,10 @@
+from matplotlib import pyplot as plt
+x=[1,2,3,45,6]
+y=[1,2,3,4,5]
+plt.plot([10,20,37,4],[11,2,33,4])
+plt.plot(x,y, color='red', linestyle='dashed', linewidth=7, marker='o', markerfacecolor='yellow', markersize=9)
+plt.plot(x,y)
+plt.title('my graph')
+plt.xlabel('x axis')
+plt.ylabel('y axis')
+plt.show()
