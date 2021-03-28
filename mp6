@@ -1,0 +1,9 @@
+from matplotlib import pyplot as plt
+ages=[1,67,55,43,22,34,12,76,98,23,44,6,65,78,3,14,10,49]
+range=(0,100)
+bins=10
+plt.hist(ages,bins,range)
+plt.title('my graph')
+plt.xlabel('age', fontsize=16)
+plt.ylabel('of people', fontsize=16)
+plt.show()
